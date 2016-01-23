@@ -1,0 +1,5 @@
+body { font-family: "Helvetica Neue", Tahoma, Arial, sans-serif; }
+
+#bind-me { width: 200px; margin: 0 auto; }
+
+label, input, img { display: block; }

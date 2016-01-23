@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>data-bind</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bind-me">
+    <label for="fn">First Name</label>
+    <input id="fn" type="text" data-bind="firstName">
+    <label for="ln">Last Name</label>
+    <input id="ln" type="text" data-bind="lastName">
+    <label for="ti">Title</label>
+    <input id="ti" type="text" data-bind="title">
+    <img data-bind="avatarUrl">
+    <div data-bind="title"></div>
+    <input type="button" value="Read" data-bind="readButton">
+    <input type="button" value="Write" data-bind="writeButton">
+    <input id="ti2" type="text" data-bind="title">
+</div>
+<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="../dist/data-bind.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
